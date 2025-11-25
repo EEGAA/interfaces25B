@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>970</width>
+    <height>606</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_salir">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>550</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>805</x>
+      <y>80</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dial">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>70</y>
+      <width>111</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>25</number>
+    </property>
+    <property name="maximum">
+     <number>2000</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_dialTime">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>19</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>a;joednfa;jednca;fej;ajkwnef;ajwenf;aen</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gameContainer" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>606</width>
+      <height>606</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_pausa">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>180</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pausa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ceros">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>550</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ceros</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_random">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>350</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Random</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ayuda">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>550</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>¿Ayuda?</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_cuadrado">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>351</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cuadrado</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_torodal">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>391</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Toroidal</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_bordes">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>300</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
