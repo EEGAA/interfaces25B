@@ -13,7 +13,7 @@ GameOfLife::GameOfLife(QWidget *parent) : QWidget(parent) {
     // Ajustar el tamaño inicial
     adjustSizeToGrid();
     timer->start(timeGen);
-    running = false;
+    running = true;
 }
 
 // Destructor
@@ -98,7 +98,6 @@ void GameOfLife::mousePressEvent(QMouseEvent *event) {
     float cellWidth = (float)width() / gridSize;
     float cellHeight = (float)height() / gridSize;
 
-    // Cambia event->position() por event->pos()
     int x = event->pos().x() / cellWidth;
     int y = event->pos().y() / cellHeight;
 
@@ -206,7 +205,7 @@ void GameOfLife::naveGen(int fila, int columna, int sentido){
         break;
     }
     update();
-    changePause();
+    pauseGen(false);
 }
 void GameOfLife::setGridSize(int newSize) {
     gridSize = newSize;
